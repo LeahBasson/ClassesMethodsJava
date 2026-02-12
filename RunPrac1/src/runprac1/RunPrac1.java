@@ -1,6 +1,5 @@
 package runprac1;
 
-import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class RunPrac1 {
@@ -10,9 +9,7 @@ public class RunPrac1 {
         // Create the object first, I’ll populate it later.
         Employee emp1 = new Employee();
 
-        // read in values
-        Scanner kbd = new Scanner(System.in);
-
+        
         // Previously:
         // System.out.print("Enter employee 1 name: ");
         // String dEmpName = kbd.next();
