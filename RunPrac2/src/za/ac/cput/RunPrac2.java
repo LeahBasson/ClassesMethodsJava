@@ -13,9 +13,7 @@ public class RunPrac2 {
         // construct circle object
         Circle circle = new Circle(radius);
         
-        circle.calDiameter();
-        
-        JOptionPane.showMessageDialog(null, "The diameter is: " + circle.getRadius());
+        JOptionPane.showMessageDialog(null, "The diameter: " + circle.calDiameter());
         
     }
     
