@@ -25,11 +25,11 @@ public class Circle {
         return this.radius;
     }
     
-    public double calDiameter(double radius){
+    public double calDiameter(){
         return 2 * radius;
     }
     
-    public double circumference(double radius){
+    public double circumference(){
         return 2 * PI * radius;
     }
 }
