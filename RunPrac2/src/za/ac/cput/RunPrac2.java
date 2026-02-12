@@ -15,6 +15,6 @@ public class RunPrac2 {
         
         JOptionPane.showMessageDialog(null, "The diameter: " + circle.calDiameter());
         
-    }
+    }// end of main
     
-}
+}// end of class
