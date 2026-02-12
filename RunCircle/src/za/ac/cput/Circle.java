@@ -2,9 +2,9 @@
 package za.ac.cput;
 
 import static java.lang.Math.PI;
-        
-public class Circle {
 
+
+public class Circle {
     // attributes
     private double radius;
 
@@ -25,11 +25,15 @@ public class Circle {
         return this.radius;
     }
     
-    public double calDiameter(){
+    public double diameter(){
         return 2 * radius;
     }
     
     public double circumference(){
         return 2 * PI * radius;
+    }
+    
+    public double area(){
+        return PI * Math.pow(radius, 2);
     }
 }
